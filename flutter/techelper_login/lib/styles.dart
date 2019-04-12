@@ -5,6 +5,7 @@ class Styles {
   static final _textSizeDefault = 16.0;
 
   static final Color _primaryColor = _hexToColor('512DA8');
+  static final Color _secundaryColor = _hexToColor('DBA925');
   static final Color _textColorStrong = _hexToColor('444444');
   static final Color _textColorDefault = _hexToColor('2B2B2B');
   static final Color _backgroundButton = _hexToColor('FFFFFF');
@@ -23,11 +24,6 @@ class Styles {
     fontFamily: _fontNameDefault,
     fontSize: _textSizeDefault,
     color: _textColorDefault,
-  );
-  static final buttonDefault = ButtonTheme(
-    buttonColor: _backgroundButton,
-    padding: EdgeInsets.all(8.0),
-    
   );
 
   static final buttonOutlineBorder = BorderSide(

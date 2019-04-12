@@ -55,10 +55,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   fonts:
-     - family: Comfortaa
-       fonts:
-         - asset: assets/fonts/Comfortaa.ttf
-           weight: 300
+    - family: Comfortaa
+      fonts:
+        - asset: assets/fonts/Comfortaa.ttf
+          weight: 300
+    - family:  EvaIcons
+      fonts:
+        - asset: assets/fonts/EvaIcons.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
